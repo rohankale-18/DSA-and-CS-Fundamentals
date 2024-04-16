@@ -1,0 +1,40 @@
+1. By default access modifiers are private
+2. A default constructor by the name of class is always called when a new object is formed.
+3. We can create a custom constructor with the same name. For given example below it will be:
+    class abc{
+        ......
+        abc(){    custom constructor
+            your code 
+        }
+        ......
+    }
+4. Parameterised Constructor
+    class abc{
+        .....
+        abc(int x){
+            this->x=x;
+        }
+        .....
+    }
+   this keyword has the address stored to the object created, its basically a pointer
+5. We can have multiple constructor in one class based on the number of parameters passed during initialization
+    class abc{
+        ......
+        abc(){    custom constructor
+            your code 
+        }
+        ......
+        abc(int x){
+            this->x=x;
+        }
+        .....
+        abc(int x,char y){
+            this->x=x;
+            this->y=y;
+        }
+        .....
+    }
+6. There is a default constructor when a class is created. If we create a constructor ourself the default one is destroyed and if we remove our constructor it won't be restored. So making constructor should be done carefully.
+
+7. Copy constructor makes new object with same properties. we can create our own copy constructors.
+8. There is default copy constructor which if replaced cannot be restored. similar to point 6.
