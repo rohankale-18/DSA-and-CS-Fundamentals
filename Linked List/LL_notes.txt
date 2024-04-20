@@ -1,0 +1,13 @@
+LINKED LIST
+1. A linear data structure.
+2. Made up of a collection of nodes.
+3. Why??
+    - a type of dynamic data structure.
+    - we can grow or shrink LL in runtime, therefore no memory wastage.
+    - insertion adn deletion easy as no shifting required.
+4. Types
+    - Singly
+    - Doubly
+    - Circular
+    - Circular Doubly
+5. Implemented using class.
